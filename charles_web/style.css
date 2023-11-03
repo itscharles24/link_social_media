@@ -1,0 +1,81 @@
+*{
+    font-family: sans-serif;
+}
+body {
+    margin: 0;
+    height: 0;
+    box-sizing: border-box;
+    background-image: url(./gon.png), url(./killua.png);
+    background-size: cover, cover;
+    background-position: 15% top, 90% top;
+    background-repeat: no-repeat, no-repeat;
+    background-color: #333;
+    background-size: 30%, 30%;
+ 
+
+}
+
+.social-media{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.image{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: blue;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 580px;
+    border: 5px solid white;
+    background-image: url(./pic.jpg);
+    background-size: cover;
+}
+.social-media .name a {
+    text-decoration: none;
+    color: inherit;
+    
+
+}
+.social-media .wrapper li {
+    list-style: none;
+    display: block;
+}
+#h4{
+    margin-left: 573px;
+    margin-top: 5px;
+    color: white;
+}
+#h1{
+    margin-left: 500px;
+    color: #3498db;
+}
+
+
+.social-media .name {
+    font-size: 18px;
+    margin-left: 12px;
+font-family: 'Font Awesome';
+color: white;
+
+}
+.name a:hover {
+    background: linear-gradient(135deg, #9ec4d8, #3498db);
+    padding: 10px;
+    border-radius: 10px;
+}
+.social-media .wrapper li {
+    margin-bottom: 20px;
+    
+}
+.social-media .name i {
+    font-size: 60px;
+   
+}
+.social-media .wrapper {
+    background-color: linear-gradient(135deg, #9ec4d8, #3498db);
+}
+
